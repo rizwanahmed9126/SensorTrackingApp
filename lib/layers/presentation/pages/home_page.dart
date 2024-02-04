@@ -16,6 +16,7 @@ class _HomePageState extends State<HomePage> {
   void initState() {
     Permission.locationWhenInUse.request();
     context.read<HomeProvider>().startConnectivityListener();
+    context.read<HomeProvider>().processAndSendDataBatches();
     super.initState();
   }
 
@@ -34,8 +35,7 @@ class _HomePageState extends State<HomePage> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
-                _buildManualReader(context, value.logModel?.reading ?? 0.0,
-                    value.logModel?.readAt ?? 'null'),
+
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
@@ -58,31 +58,5 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  Widget _buildManualReader(context, double heading, String dateTime) {
-    return Padding(
-      padding: const EdgeInsets.all(16.0),
-      child: Row(
-        children: <Widget>[
-          ElevatedButton(
-            child: const Text('Read Value'),
-            onPressed: () async {
-              Provider.of<HomeProvider>(context, listen: false).getLogs();
-            },
-          ),
-          Expanded(
-            child: Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: <Widget>[
-                  Text('$heading'),
-                  Text(dateTime),
-                ],
-              ),
-            ),
-          ),
-        ],
-      ),
-    );
-  }
+
 }

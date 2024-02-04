@@ -4,7 +4,7 @@
             "outputFile": "com.example.sensor_tracking_app-mergeDebugResources-9:/values/values.xml",
             "map": [
                 {
-                    "source": "/Users/rizwanahmed/Documents/Zekju/sensor_tracking_app/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/rizwanahmed/Documents/Zekju/Zekju/sensorApp/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

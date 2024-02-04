@@ -39,6 +39,10 @@ class HomeProvider extends ChangeNotifier {
                 logList.map((log) => log['id'] as int).toList();
             await deleteLogs(sentLogIds);
           }
+          else{
+            hasMoreData = false;
+            break;
+          }
         } else {
           hasMoreData = false;
           break; // No more data to send
@@ -60,7 +64,7 @@ class HomeProvider extends ChangeNotifier {
         result = false;
       },
       (list) {
-        result = true;
+        result = list;
       },
     );
 

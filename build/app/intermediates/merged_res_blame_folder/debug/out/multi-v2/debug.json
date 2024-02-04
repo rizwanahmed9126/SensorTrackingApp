@@ -49,7 +49,7 @@
             "outputFile": "com.example.sensor_tracking_app-merged_res-11:/values_values.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/rizwanahmed/Documents/Zekju/sensor_tracking_app/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/rizwanahmed/Documents/Zekju/Zekju/sensorApp/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
@@ -532,7 +532,7 @@
             "outputFile": "com.example.sensor_tracking_app-merged_res-11:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/rizwanahmed/Documents/Zekju/sensor_tracking_app/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/rizwanahmed/Documents/Zekju/Zekju/sensorApp/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
