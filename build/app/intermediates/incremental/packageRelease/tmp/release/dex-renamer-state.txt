@@ -1,0 +1,4 @@
+#Sun Feb 04 15:01:28 CET 2024
+base.0=/Users/rizwanahmed/Documents/Zekju/sensor_tracking_app/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

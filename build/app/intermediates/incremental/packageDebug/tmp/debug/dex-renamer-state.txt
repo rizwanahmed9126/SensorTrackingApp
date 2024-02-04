@@ -1,0 +1,4 @@
+#Sun Feb 04 15:19:38 CET 2024
+base.0=/Users/rizwanahmed/Documents/Zekju/sensor_tracking_app/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
